@@ -1,0 +1,19 @@
+{
+  "name": "consuming-api",
+  "version": "1.0.0",
+  "description": "Criar API\r  - [] Inciar o projeto 'npm init -y'\r  - [] Instalar as dependências 'npm i express nodemon cors axios'\r  - [] Criar uma rota para acessar a API\r  - [] Servir a API\r  - [] Habilitar o CORS\r  - [] Habilitar o nodemon para reiniciar o server",
+  "main": "index.js",
+  "scripts": {
+    "myapi": "nodemon myapi.js",
+    "backend": "nodemon apibackend.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}
